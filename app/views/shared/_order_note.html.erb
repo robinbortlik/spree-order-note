@@ -1,3 +1,4 @@
 <div style="float:right;padding:20px;">
-  <%= text_area "checkout[order_note]", 'blah blah', :cols => 30, :rows => 4 %>
+  <p><%= t('order_note') %></p>
+  <%= text_area :order, :order_note, :cols => 30, :rows => 4 %>
 </div>

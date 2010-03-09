@@ -1,3 +1,3 @@
 class OrderNoteHooks < Spree::ThemeSupport::HookListener
-  insert_after :checkout_form, 'shared/order_note'
+  insert_after :checkout_summary_box, 'shared/order_note'
 end
