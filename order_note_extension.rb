@@ -1,6 +1,6 @@
 class OrderNoteExtension < Spree::Extension
   version "1.0"
-  description "Describe your extension here"
+  description "Adds an order note to the checkout process."
   url "http://www.spinlocksolutions.com/"
   
   def activate
