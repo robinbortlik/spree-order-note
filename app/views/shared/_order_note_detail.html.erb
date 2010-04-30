@@ -1,0 +1,6 @@
+<% if @order.order_note %>
+  <div class='adr'>
+    <h4> <%= t(:order_note) %></h4>
+    <%= simple_format(h(@order.order_note)) %>
+  <% end %>
+</div> 
